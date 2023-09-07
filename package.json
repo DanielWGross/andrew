@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
   "dependencies": {
+    "eslint-config-wesbos": "^3.2.3",
     "express": "^4.17.1"
   }
 }
